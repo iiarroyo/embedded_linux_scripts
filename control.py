@@ -1,7 +1,7 @@
 import RPi.GPIO
 import curses
 
-GIO.setwarnings(False)
+GPIO.setwarnings(False)
 screen = curses.initsrc()
 curses.noecho()
 curses.cbreak()
