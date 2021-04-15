@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import curses
 
 GPIO.setwarnings(False)
-screen = curses.initsrc()
+screen = curses.initscr()
 curses.noecho()
 curses.cbreak()
 screen.keypad(True)
