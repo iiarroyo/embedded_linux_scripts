@@ -7,5 +7,4 @@ while True:
     button.wait_for_press()# esperar presionado
     #prender led despues de presionado
     led.on() 
-    sleep(5)
     led.off()
