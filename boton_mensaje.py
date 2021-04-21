@@ -7,10 +7,12 @@ bandera = True
 while bandera: #ejecuta instruccion hasta interrupcion
     try:
         button.wait_for_press()# esperar presionado
+        print("Botón presionado") 
         #prender led despues de presionado
         #imprimir mensaje en consola
+
+        button.wait_for_press()# esperar presionado
         led.on()
-        print("Botón presionado") 
         led.off()
     except KeyboardInterrupt:
         print("Programa finalizado")
