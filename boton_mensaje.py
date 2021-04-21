@@ -11,7 +11,6 @@ while bandera: #ejecuta instruccion hasta interrupcion
         #imprimir mensaje en consola
         print("Botón presionado")
         led.on() 
-        sleep(3)
         led.off()
     except KeyboardInterrupt:
         print("Programa finalizado")
