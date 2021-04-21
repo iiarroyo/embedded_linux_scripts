@@ -9,10 +9,9 @@ while bandera: #ejecuta instruccion hasta interrupcion
         button.wait_for_press()# esperar presionado
         #prender led despues de presionado
         #imprimir mensaje en consola
-        print("Botón presionado")
-        led.on() 
+        led.on()
+        print("Botón presionado") 
         led.off()
-        sleep(0.1)
     except KeyboardInterrupt:
         print("Programa finalizado")
         bandera = False
